@@ -1,0 +1,43 @@
+
+<script type="text/javascript">
+	
+	$('.b_volver').click(function(){
+
+		$('#load').hide();
+
+	});
+
+
+	//ir a descripción detalla de productos seleccionados
+	$('#c_productos div').click(function(){
+
+		$('#load').load('includes/producto_base.html');
+
+		$('#load').show();
+
+	});
+
+</script>
+
+
+<!--productos esculapio por categorías-->
+
+<div class="b_volver">Volver atras</div>
+
+<section id="c_productos">
+	
+	<div><a href="#">Camillas</a></div>
+
+	<div><a href="#">Sillas de Ruedas</a></div>
+
+	<div><a href="#">Andaderas</a></div>
+
+	<div><a href="#">Prótesis</a></div>
+
+	<div><a href="#">E. Ginecología</a></div>
+
+	<div><a href="#">E. Odontología</a></div>
+
+	<div><a href="#">E. Cirugía</a></div>
+
+</section>

@@ -1,0 +1,21 @@
+
+//categorías de productos
+#c_productos{
+	width: 100%;
+	height: auto;
+}
+
+	#c_productos div{
+		width: 100%;
+		height: auto;
+		background: linear-gradient(#999, white, white, white, white, #999);
+		padding: $full;
+		border: 1px solid white;
+	}
+
+		#c_productos div a{
+			font-family: arial, helvetica, sans-serif;
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: green;			
+		}

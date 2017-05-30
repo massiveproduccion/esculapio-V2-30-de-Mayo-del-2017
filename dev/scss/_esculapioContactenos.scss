@@ -1,0 +1,43 @@
+
+//sección de contacto general
+#info_G{
+	width: 100%;
+	height: auto;
+}
+
+	#info_G div{
+		width: 100%;
+		height: auto;
+		padding: 5% 2%;
+		font-family: arial, helvetica, sans-serif;
+		font-size: 1.1rem;
+		line-height: 1.5;
+		font-weight: bold;
+		color: white;
+		text-align: left;
+		padding: 0% 5%;
+		margin-bottom: 4%;
+	}
+
+		#info_G div:nth-of-type(1){
+			margin-top: 20%;
+		}
+
+		#info_G .tops{
+			font-size: 1.3rem;
+			text-align: center;
+			margin-top: 5%;
+		}
+
+	#info_G h3{
+		font-family: arial, helvetica, sans-serif;
+		font-size: 1.3rem;		
+		font-weight: bold;
+		color: white;
+	}
+
+	#info_G iframe{
+		width: 100%;
+		height: auto;
+		padding: 0% 5%;
+	}

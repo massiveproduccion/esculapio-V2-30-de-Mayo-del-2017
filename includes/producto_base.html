@@ -1,0 +1,63 @@
+
+<script type="text/javascript">
+	
+	$('.cerrar').click(function(){
+
+		$('#load').hide();
+
+	});
+
+	//----------------------------------------------------------------------------
+
+	//consulta directa en producto
+	$('#producto1 #masInfo').click(function(){
+
+		$('#producto1 form').show();
+
+		$('#masInfo').hide();
+
+	});
+
+
+</script>
+
+
+
+<!--producto demo-->
+<section id="producto1">
+
+	<div class="cerrar">X</div>
+	
+	<h2>Sutura Universal</h2>
+
+	<h3>Descripción:</h3>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna.</p>
+
+	<img src="source/img/mobileFirst/galeria/suturaGeneral.jpg" alt="Sutura General">
+
+	<h3>Características:</h3>
+
+	<h4>Calibre: 12</h4>
+
+	<h4>Lingitud: 3, metros</h4>
+
+	<h4>Peso: 25, gramos</h4>
+
+	<h4>Tipo: Sintética, Biodegradable</h4>
+
+	<h4>Precio Referencial: 20.000Bf</h4>
+
+	<form action="source/php/enviar.php" method="post" id="consulta_D">
+		<h2>CONSULTA</h2>
+		<input type="text" name="nombre" placeholder="Nombre" required="required"></input>
+		<input type="email" name="correo" placeholder="Correo / Opcional"></input>
+		<input type="text" name="telefono" placeholder="Teléfono" required="required"></input>
+		<textarea name="mensaje" placeholder="Consulte su Producto" required="required"></textarea>
+		<input type="submit" value="Enviar" id="boton"></input>
+	</form>
+
+	<div id="masInfo">Pida más Información</div>
+
+</section>

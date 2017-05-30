@@ -1,0 +1,56 @@
+
+//producto base ó genérico
+#producto1{
+	width: 100%;
+	height: auto;
+}
+
+	#producto1 h2{
+		font-family: arial, helvetica, sans-serif;
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: white;
+		padding: 1% 5%;
+	}
+
+	#producto1 h3{
+		font-family: arial, helvetica, sans-serif;
+		font-size: 1.3rem;
+		font-weight: bold;
+		color: white;
+		padding: 1% 5%;
+	}
+
+	#producto1 h4{
+		font-family: arial, helvetica, sans-serif;
+		font-size: 1.1rem;
+		font-weight: bold;
+		color: white;
+		padding: 0% 2%;
+	}
+
+		#producto1 h4:nth-of-type(5){
+			margin-bottom: 5%;
+		}
+
+	#producto1 p{
+		width: 100%;
+		height: auto;
+		font-family: arial, helvetica, sans-serif;
+		font-size: 1.2rem;
+		font-weight: bold;
+		color: white;
+		padding: 1% 2%;
+	}
+
+	#producto1 #masInfo{
+		width: 100%;
+		height: auto;
+		padding: 5% 1%;
+		position: absolute;
+		left: 0%;
+		bottom: 0%;		
+		color: white;
+		background-color: black;
+		cursor: pointer;		
+	}

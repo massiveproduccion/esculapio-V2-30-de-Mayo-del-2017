@@ -1,0 +1,41 @@
+
+<script type="text/javascript">
+	
+	//cerrar ventanas emergentes (universal)
+	$('.cerrar').click(function(){
+
+		$('#load').hide();
+
+	});
+
+</script>
+
+
+<!--formulario para contacto general-->
+
+<div class="cerrar">X</div>
+
+<section id="info_G">
+	
+	<div class="tops">Teléfonos de Contacto:</div>
+
+	<div>0412-519-29-12 | 0251-261-34-07</div>
+
+	<div class="tops">Ubicación Comercial:</div>
+
+	<div> Av. Venezuela entre Calles 21 y 22, Local: #103, Barquisimeto Estado Lara</div>
+
+	<h3>Nuestra Ubicación</h3>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.0797794917495!2d-69.31324920153244!3d10.072916815445431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e87670b243ffcc3%3A0x90c2cb47ab5beec6!2sAvenida+Venezuela%2C+Barquisimeto+3001%2C+Lara!5e0!3m2!1ses!2sve!4v1495669767774" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</section>
+
+<form action="source/php/enviar.php" method="post">
+	<h2>CONTACTO</h2>
+	<input type="text" name="nombre" placeholder="Nombre" required="required"></input>
+	<input type="email" name="correo" placeholder="Correo / Opcional"></input>
+	<input type="text" name="telefono" placeholder="Teléfono" required="required"></input>
+	<textarea name="mensaje" placeholder="Contáctenos" required="required"></textarea>
+	<input type="submit" value="Enviar" id="boton"></input>
+</form>

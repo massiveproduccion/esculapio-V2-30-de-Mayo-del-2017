@@ -1,0 +1,43 @@
+
+<script type="text/javascript">
+	
+	$('.b_volver').click(function(){
+
+		$('#load').hide();
+
+	});
+
+
+	//ir a descripción detalla de productos seleccionados
+	$('#c_productos div').click(function(){
+
+		$('#load').load('includes/producto_base.html');
+
+		$('#load').show();
+
+	});
+
+</script>
+
+
+<!--productos esculapio por categorías-->
+
+<div class="b_volver">Volver atras</div>
+
+<section id="c_productos">
+	
+	<div><a href="#">Jeringas</a></div>
+
+	<div><a href="#">Suturas</a></div>
+
+	<div><a href="#">Sondas</a></div>
+
+	<div><a href="#">Lencería</a></div>
+
+	<div><a href="#">Reactivos</a></div>
+
+	<div><a href="#">Rehabilitación</a></div>
+
+	<div><a href="#">Equpos Médicos</a></div>
+
+</section>

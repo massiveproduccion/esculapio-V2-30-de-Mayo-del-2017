@@ -1,0 +1,54 @@
+
+/*sliders de productos principales*/
+
+//contenedor principal
+#contenedor{
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;	
+	box-shadow: 0 0 0 0px #fff, 0 10px 20px;	
+}
+
+	#slider{
+		width: 500%;
+		height: auto;
+		display: flex;
+		display: -webkit- flex;
+		display:  -moz- flex;
+		display: -ms- flex;
+		display: -o- flex;			
+	}
+
+		#slider picture{
+			width: 20%;
+			height: auto;	
+			cursor: pointer;		
+		}
+		
+
+	#prev, #next{
+		width: 40px;
+		height: 27%;
+		color: black;		
+		position: absolute;
+		top: 33%;
+		transform: transformY(-50%);
+		font-family: arial;
+		font-weight: bold;
+		font-size: 2rem;
+		line-height: 20px;		
+		cursor: pointer;
+	}
+
+		#prev{
+			left: 10px;
+		}
+
+		#next{
+			right: 10px;
+		}
+
+			#prev:hover, #next:hover{
+				color: orange;
+			}

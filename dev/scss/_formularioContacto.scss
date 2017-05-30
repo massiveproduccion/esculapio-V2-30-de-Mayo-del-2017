@@ -1,0 +1,48 @@
+
+//formulario de consultar producto
+
+form{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 1% 5% 1% 5%;
+	box-sizing: border-box;	
+	border-radius: 7px;
+	background: rgba(0,0,0,0.7);
+	/*display: none;*/
+}
+
+	form h2{
+		font-family: arial,helvetica,sans-serif;
+		font-size: 1.5rem;
+		color: white;
+		text-align: center;
+	}
+
+		form input, textarea{
+			width: 100%;
+			height: auto;
+			padding: 3%;
+			margin-bottom: 5%;
+			box-sizing: border-box;
+			border: none;				
+		}
+
+			textarea{
+				max-width: 348px;
+				min-height: 120px;
+				max-height: 180px;
+			}
+
+				form #boton{
+					font-family: arial,helvetica-sans-serif;
+					font-size: 1.2rem;
+					font-weight: bold;
+					background-color: red;
+					color: white;
+					cursor: pointer;
+				}
+
+					form #boton:hover{
+						background-color: #333;
+					}

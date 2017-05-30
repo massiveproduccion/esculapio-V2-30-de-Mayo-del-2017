@@ -1,0 +1,32 @@
+
+<script type="text/javascript">
+	
+	//cerrar ventanas emergentes (universal)
+	$('.cerrar').click(function(){
+
+		$('#load').hide();
+
+	});
+
+	//cerrar la sección de consultar producto
+	/*$('#boton').click(function(){
+
+		$('#load').hide();
+
+	});*/
+
+</script>
+
+
+<!--formulario para consultar producto-->
+
+<div class="cerrar">X</div>
+
+<form action="source/php/enviar.php" method="post">
+	<h2>CONTACTO</h2>
+	<input type="text" name="nombre" placeholder="Nombre" required></input>
+	<input type="email" name="correo" placeholder="Correo / Opcional"></input>
+	<input type="text" name="telefono" placeholder="Teléfono" required></input>
+	<textarea name="mensaje" placeholder="Consulte su Producto" required></textarea>
+	<input type="submit" value="Enviar" id="boton"></input>
+</form>
